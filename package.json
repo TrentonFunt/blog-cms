@@ -1,0 +1,43 @@
+{
+  "name": "blog-cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.23.4",
+    "@strapi/plugin-users-permissions": "5.23.4",
+    "@strapi/provider-upload-cloudinary": "^5.23.4",
+    "@strapi/strapi": "5.23.4",
+    "better-sqlite3": "11.3.0",
+    "cloudinary": "^2.7.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "bfef21f2-5a8f-4caa-acb3-7bc0f3bb1539",
+    "installId": "784d5f5b053c9af2d38c243ba7aa2836035111531c304815ef4c7e06cc6a8f70"
+  }
+}
