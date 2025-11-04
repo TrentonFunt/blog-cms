@@ -5,7 +5,7 @@ export default [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:1338', 'http://127.0.0.1:5173', 'http://127.0.0.1:5174', 'http://127.0.0.1:1338', 'https://blog-cms-production-0051.up.railway.app', 'https://*.vercel.app', 'https://*.railway.app'],
+      origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000', 'http://localhost:1338', 'http://127.0.0.1:5173', 'http://127.0.0.1:5174', 'http://127.0.0.1:1338'],
       credentials: true,
       headers: '*',
     }
